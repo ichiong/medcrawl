@@ -1,0 +1,57 @@
+link,title
+"<form id=""email-login-form"" method=""post"" action=""./?section=login"">
+					<div class=""landing-header"">Sign In to Your Account</div>
+
+
+<label id=""login-email-lobel"" for=""login-email"">Email address</label>
+<input type=""text"" id=""login-email"" name=""email"">
+
+<label id=""login-password-label"" for=""login-password"">Password</label>
+<input type=""password"" id=""login-password"" name=""password"">
+
+<div id=""email-address-invalid"" class=""hide alerty alerty-error login-form-error"">
+	Email address is invalid
+</div>
+
+<div id=""password-invalid"" class=""hide alerty alerty-error login-form-error"">
+	Password cannot be empty
+</div>
+
+
+
+
+
+
+
+					<div>
+						<a class=""forgotpassword"" id=""forgot-password-link"" href=""#"" tabindex=""-1"">Forgot your password?</a>
+						<button class=""signinbtn btn"" type=""submit"" id=""email-login-button"">Sign In</button>
+					</div>
+
+				<!-- if quickpay then have PIN and signup text below login section otherwise put it after signin block so it's expanded to full size of page -->
+					<div class=""alternatesigninwrapper"">
+						<div class=""full-line""></div>
+					</div>
+					<div>
+						<div><strong>Do you have a PIN instead of a password?</strong></div>
+						<div><a class=""start-account-migration"" href=""./?section=landing&amp;sub=find_user"">Use your PIN to create a password</a> and access your account with our new, easier sign-in method.</div>
+					<div class=""portal-break""></div>
+						<div><strong>Don't have a Patient Portal account?</strong></div>
+						<div><a class=""start-account-creation"" href=""./?section=landing&amp;sub=registration_wizard"">Sign up today</a> to stay connected to your health care.</div>
+					</div>
+					<div class=""portal-break-short""></div>
+
+
+				</form>,<form action=""javascript:submitQuickpayPortalEmail();"" class=""quickpayportalemailform"" id=""quickpayportalemailform"">
+			<label for=""patientemail"">Email</label>
+			<input type=""text"" id=""patientemail"" name=""patientemail"" class=""textbox"">
+			<input type=""submit"" value=""Send"" class=""btn"">
+
+		</form>","<div class=""landing-detail quickpaylogin"">
+							By clicking <strong>Make a Payment</strong>, you
+							<br>represent that you are authorized to address the patient's billing matters.
+						</div>,<div id=""email-address-invalid"" class=""hide alerty alerty-error login-form-error"">
+	Email address is invalid
+</div>,<div id=""password-invalid"" class=""hide alerty alerty-error login-form-error"">
+	Password cannot be empty
+</div>"
